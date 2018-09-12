@@ -5,5 +5,31 @@
 /* Relaxed */
 
 /* Corporate */
+/* Strategy: B&W and 1-Colour*/ 
+/*
+ Palette:
+ ======== 
+    B       : #1f1f1f
+    W       : #e0e0e0
+    Colour  : #3b49d3 
+*/ 
+
+.corporate { 
+    background-color: #e0e0e0; 
+}
+
+.corporate .title {
+    color: #e0e0e0; 
+    background-color: #3b49d3; 
+}
+
+.corporate p { 
+    color: #1f1f1f
+}
+
+.corporate a { 
+    background-color: #3b49d3; 
+    color: #e0e0e0; 
+}
 
 /* Fun */
