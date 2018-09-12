@@ -1,6 +1,9 @@
-/* Sophisticated */
-/* Strategy: Triad*/
-/* 
+/*****************
+ * Sophisticated *
+ *****************
+
+ Colour Strategy: Triad
+
  Palette:
  ========
     Background  : #367abd 
@@ -9,9 +12,10 @@
 
  Fonts: 
  ======
-    Fjalla One
-    Cantarell
- */  
+    HEADERS         : Fjalla One
+    BODY/PARAGRAPHS : Cantarell
+    LINKS/BUTTONS   : Fjalla One
+*/  
 
 .sophisticated { 
     background-color: #ee4035; 
@@ -41,9 +45,13 @@
     font-family: 'Fjalla One', sans-serif; 
 }
 
-/* Energetic */
-/* Strategy: Complementary*/
-/* 
+
+/*****************
+ *   Energetic   *
+ *****************
+
+ Colour Strategy: Complementary
+
  Palette:
  ========
     Primary     : #a0cf31 
@@ -51,7 +59,9 @@
 
  Fonts: 
  ======
-
+    HEADERS         : TBD
+    BODY/PARAGRAPHS : TBD
+    LINKS/BUTTONS   : TBD
  */  
 .energetic { 
     background-color: white;
@@ -81,9 +91,12 @@
 }
 
 
-/* Relaxed */
-/* Strategy: Analogous*/
-/* 
+/*****************
+ *    Relaxed    *
+ *****************
+
+ Strategy: Analogous 
+
  Palette:
  ========
     Left    : #364d39 
@@ -92,8 +105,11 @@
 
  Fonts: 
  ======
+    HEADERS         : TBD
+    BODY/PARAGRAPHS : TBD
+    LINKS/BUTTONS   : TBD
+*/  
 
- */  
 .relaxed { 
     background-color: #ebe084;
 }
@@ -122,9 +138,12 @@
 }
 
 
-/* Corporate */
-/* Strategy: B&W and 1-Colour*/ 
-/*
+/*****************
+ *   Corporate   *
+ *****************
+ 
+ Strategy: B&W and 1-Colour 
+
  Palette:
  ======== 
     B       : #1f1f1f
@@ -133,8 +152,9 @@
 
  Fonts: 
  ======
-    Cormorant Garamond
-    Proza Libre
+    HEADERS         : Cormorant Garamond
+    BODY/PARAGRAPHS : Proza Libre
+    LINKS/BUTTONS   : Cormorant Garamond
 */ 
 
 .corporate { 
@@ -180,7 +200,9 @@ MAKE THIS A VAPORWAVE PLAYGROUND, ALEX!!!
 
  Fonts: 
  ======
-
+    HEADERS         : TBD
+    BODY/PARAGRAPHS : TBD
+    LINKS/BUTTONS   : TBD
  */  
 
 .fun { 
