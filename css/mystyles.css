@@ -10,12 +10,16 @@
  Palette:
  ======== 
     B       : #1f1f1f
-    W       : #e0e0e0
+    W       : #e0e0e0 (or 0xffffff - 0x1f1f1f) 
     Colour  : #3b49d3 
 */ 
 
 .corporate { 
     background-color: #e0e0e0; 
+}
+
+.corporate h1 { 
+    font-family: 'Cormorant Garamond', serif; 
 }
 
 .corporate .title {
@@ -24,12 +28,14 @@
 }
 
 .corporate p { 
-    color: #1f1f1f
+    color: #1f1f1f; 
+    font-family: 'Proza Libre', sans-serif; 
 }
 
 .corporate a { 
     background-color: #3b49d3; 
     color: #e0e0e0; 
+    font-family: 'Cormorant Garamond'; 
 }
 
 /* Fun */
