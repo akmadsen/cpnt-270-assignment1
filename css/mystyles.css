@@ -3,9 +3,9 @@
 /* 
  Palette:
  ========
-    Background  : #85e9be 
-    Primary     : #0d0a8a
-    Secondary   : #ef4a1d
+    Background  : #03d1ab 
+    Primary     : #3134a1
+    Secondary   : #f8550d
 
  Fonts: 
  ======
@@ -14,32 +14,31 @@
  */  
 
 .sophisticated { 
-    background-color: #85e9be; 
+    background-color: #03d1ab; 
+}
+
+.sophisticated .title { 
+    background-color: #3134a1; 
+    color: #f8550d;
 }
 
 .sophisticated h1 { 
     font-family: 'Fjalla One', sans-serif; 
-    background-color: #ef4a1d; 
-    color: #0d0a8a; 
+
 }
 
 .sophisticated h2 { 
     font-family: 'Fjalla One', sans-serif; 
 }
 
-.sophisticated .title {
-    color: #e0e0e0; 
-    background-color: #0d0a8a; 
-}
-
 .sophisticated p { 
-    color: #1f1f1f; 
+    color: #1f1f1f;
     font-family: 'Proza Libre', sans-serif; 
 }
 
 .sophisticated a { 
-    background-color: #0d0a8a; 
-    color: #e0e0e0; 
+    background-color: #3134a1; 
+    color: #f8550d; 
     font-family: 'Fjalla One', sans-serif; 
 }
 
