@@ -77,12 +77,49 @@
 .energetic a { 
     background-color: #e91b86; 
     color: #a0cf31; 
-    font-family: 'Fjalla One', sans-serif; 
+    /* font-family: 'Fjalla One', sans-serif;  */
 }
 
 
 /* Relaxed */
+/* Strategy: Analogous*/
+/* 
+ Palette:
+ ========
+    Left    : #364d39 
+    Centre  : #6f984c
+    Right   : #ebe084
 
+ Fonts: 
+ ======
+
+ */  
+.relaxed { 
+    background-color: #ebe084;
+}
+
+.relaxed .title { 
+    background-color: #364d39;  
+    color: #6f984c;
+}
+
+.relaxed h1 { 
+    /* font-family: 'Fjalla One', sans-serif;  */
+}
+
+.relaxed h2 { 
+    /* font-family: 'Fjalla One', sans-serif;  */
+}
+
+.relaxed p { 
+    /* font-family: 'Proza Libre', sans-serif;  */
+}
+
+.relaxed a { 
+    background-color: #6f984c; 
+    color: #ebe084; 
+    /* font-family: 'Fjalla One', sans-serif;  */
+}
 
 /* Corporate */
 /* Strategy: B&W and 1-Colour*/ 
