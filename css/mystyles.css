@@ -3,9 +3,9 @@
 /* 
  Palette:
  ========
-    Background  : #03d1ab 
-    Primary     : #3134a1
-    Secondary   : #f8550d
+    Background  : #367abd 
+    Primary     : #ee4035
+    Secondary   : #f9ed3a
 
  Fonts: 
  ======
@@ -14,12 +14,12 @@
  */  
 
 .sophisticated { 
-    background-color: #03d1ab; 
+    background-color: #ee4035; 
 }
 
 .sophisticated .title { 
-    background-color: #3134a1; 
-    color: #f8550d;
+    background-color: #367abd; 
+    color: #f9ed3a;
 }
 
 .sophisticated h1 { 
@@ -32,13 +32,12 @@
 }
 
 .sophisticated p { 
-    color: #1f1f1f;
     font-family: 'Proza Libre', sans-serif; 
 }
 
 .sophisticated a { 
-    background-color: #3134a1; 
-    color: #f8550d; 
+    background-color: #367abd; 
+    color: #f9ed3a; 
     font-family: 'Fjalla One', sans-serif; 
 }
 
@@ -54,7 +53,7 @@
  ======== 
     B       : #1f1f1f
     W       : #e0e0e0 (or 0xffffff - 0x1f1f1f) 
-    Colour  : #3b49d3 
+    Colour  : #0018f5 
 
  Fonts: 
  ======
@@ -76,7 +75,7 @@
 
 .corporate .title {
     color: #e0e0e0; 
-    background-color: #3b49d3; 
+    background-color: #0018f5; 
 }
 
 .corporate p { 
@@ -85,7 +84,7 @@
 }
 
 .corporate a { 
-    background-color: #3b49d3; 
+    background-color: #0018f5; 
     color: #e0e0e0; 
     font-family: 'Cormorant Garamond', serif; 
 }
