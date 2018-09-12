@@ -121,6 +121,7 @@
     /* font-family: 'Fjalla One', sans-serif;  */
 }
 
+
 /* Corporate */
 /* Strategy: B&W and 1-Colour*/ 
 /*
@@ -164,4 +165,47 @@
     font-family: 'Cormorant Garamond', serif; 
 }
 
+
 /* Fun */
+/* Strategy: Analogous*/
+/****** 
+MAKE THIS A VAPORWAVE PLAYGROUND, ALEX!!!
+****/
+/* 
+ Palette:
+ ========
+    Centre  : #ffe822
+    Left    : #414b8b 
+    Right   : #e91b86
+
+ Fonts: 
+ ======
+
+ */  
+
+.fun { 
+    background-color: #e91b86;
+}
+
+.fun .title { 
+    background-color: #414b8b;  
+    color: #ffe822;
+}
+
+.fun h1 { 
+    /* font-family: 'Fjalla One', sans-serif;  */
+}
+
+.fun h2 { 
+    /* font-family: 'Fjalla One', sans-serif;  */
+}
+
+.fun p { 
+    /* font-family: 'Proza Libre', sans-serif;  */
+}
+
+.fun a { 
+    background-color: #414b8b; 
+    color: #ffe822; 
+    /* font-family: 'Fjalla One', sans-serif;  */
+}
