@@ -42,6 +42,44 @@
 }
 
 /* Energetic */
+/* Strategy: Complementary*/
+/* 
+ Palette:
+ ========
+    Primary     : #a0cf31 
+    Secondary   : #e91b86
+
+ Fonts: 
+ ======
+
+ */  
+.energetic { 
+    background-color: white;
+}
+
+.energetic .title { 
+    background-color: #a0cf31;  
+    color: #e91b86;
+}
+
+.energetic h1 { 
+    /* font-family: 'Fjalla One', sans-serif;  */
+}
+
+.energetic h2 { 
+    /* font-family: 'Fjalla One', sans-serif;  */
+}
+
+.energetic p { 
+    /* font-family: 'Proza Libre', sans-serif;  */
+}
+
+.energetic a { 
+    background-color: #e91b86; 
+    color: #a0cf31; 
+    font-family: 'Fjalla One', sans-serif; 
+}
+
 
 /* Relaxed */
 
