@@ -12,6 +12,7 @@
 
  Fonts: 
  ======
+    (This font-pairing by www.fontpair.io) 
     HEADERS         : Fjalla One
     BODY/PARAGRAPHS : Cantarell
     LINKS/BUTTONS   : Fjalla One
@@ -59,6 +60,7 @@
 
  Fonts: 
  ======
+    (This font-paring by www.fontpair.io)
     HEADERS         : Lobster
     BODY/PARAGRAPHS : Arimo
     LINKS/BUTTONS   : Arimo (Bold) 
@@ -106,9 +108,10 @@
 
  Fonts: 
  ======
-    HEADERS         : TBD
-    BODY/PARAGRAPHS : TBD
-    LINKS/BUTTONS   : TBD
+    (This font-pair an attempt by Alex Madsen) 
+    HEADERS         : Chango
+    BODY/PARAGRAPHS : Comfortaa
+    LINKS/BUTTONS   : Comfortaa (Bold) 
 */  
 
 .relaxed { 
@@ -121,21 +124,22 @@
 }
 
 .relaxed h1 { 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-family: 'Chango', cursive; 
 }
 
 .relaxed h2 { 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-family: 'Chango', cursive; 
 }
 
 .relaxed p { 
-    /* font-family: 'Proza Libre', sans-serif;  */
+    font-family: 'Montserrat', sans-serif; 
 }
 
 .relaxed a { 
     background-color: #6f984c; 
     color: #ebe084; 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-weight: bold; 
+    font-family: 'Montserrat', sans-serif; 
 }
 
 
@@ -153,6 +157,7 @@
 
  Fonts: 
  ======
+    (This font-pairing by www.fontpair.io) 
     HEADERS         : Cormorant Garamond
     BODY/PARAGRAPHS : Proza Libre
     LINKS/BUTTONS   : Cormorant Garamond
@@ -195,15 +200,16 @@ MAKE THIS A VAPORWAVE PLAYGROUND, ALEX!!!
 /* 
  Palette:
  ========
-    Centre  : #ffe822
-    Left    : #414b8b 
-    Right   : #e91b86
+    Centre  : #f9e3da (yellow-ish) 
+    Left    : #30499b (blue-ish) 
+    Right   : #ec4a94 (pink-ish) 
 
  Fonts: 
  ======
-    HEADERS         : TBD
-    BODY/PARAGRAPHS : TBD
-    LINKS/BUTTONS   : TBD
+    (This font-pairing an attempt by Alex Madsen) 
+    HEADERS         : Permanent Marker
+    BODY/PARAGRAPHS : Roboto Condensed
+    LINKS/BUTTONS   : Roboto Condensed (bold) 
  */  
 
 .fun { 
@@ -216,19 +222,20 @@ MAKE THIS A VAPORWAVE PLAYGROUND, ALEX!!!
 }
 
 .fun h1 { 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-family: 'Permanent Marker', cursive; 
 }
 
 .fun h2 { 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-family: 'Permanent Marker', cursive; 
 }
 
 .fun p { 
-    /* font-family: 'Proza Libre', sans-serif;  */
+    font-family: 'Roboto Condensed', sans-serif; 
 }
 
 .fun a { 
     background-color: #414b8b; 
     color: #ffe822; 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif; 
 }
