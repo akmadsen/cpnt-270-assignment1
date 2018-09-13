@@ -2,48 +2,49 @@
  * Sophisticated *
  *****************
 
- Colour Strategy: Triad
+ Colour Strategy: Black, White and One Colour 
 
  Palette:
  ========
-    Background  : #367abd 
-    Primary     : #ee4035
-    Secondary   : #f9ed3a
+    Black   : #111111 
+    White   : #dddddd
+    Colour  : #e7aa0f
 
  Fonts: 
  ======
     (This font-pairing by www.fontpair.io) 
-    HEADERS         : Fjalla One
-    BODY/PARAGRAPHS : Cantarell
-    LINKS/BUTTONS   : Fjalla One
+    HEADERS         : Playfair Display SC (black) 
+    BODY/PARAGRAPHS : Open Sans 
+    LINKS/BUTTONS   : Open Sans (bold) 
 */  
 
 .sophisticated { 
-    background-color: #ee4035; 
+    background-color: #e7aa0f; 
 }
 
 .sophisticated .title { 
-    background-color: #367abd; 
-    color: #f9ed3a;
+    background-color: #111111; 
+    color: #dddddd;
 }
 
 .sophisticated h1 { 
-    font-family: 'Fjalla One', sans-serif; 
+    font-family: 'Playfair Display SC', serif; 
 
 }
 
 .sophisticated h2 { 
-    font-family: 'Fjalla One', sans-serif; 
+    font-family: 'Playfair Display SC', serif; 
 }
 
 .sophisticated p { 
-    font-family: 'Proza Libre', sans-serif; 
+    font-family: 'Open Sans', sans-serif; 
 }
 
 .sophisticated a { 
-    background-color: #367abd; 
-    color: #f9ed3a; 
-    font-family: 'Fjalla One', sans-serif; 
+    background-color: #111111; 
+    color: #dddddd; 
+    font-weight: bold; 
+    font-family: 'Open Sans', sans-serif; 
 }
 
 
