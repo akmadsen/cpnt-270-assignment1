@@ -59,9 +59,9 @@
 
  Fonts: 
  ======
-    HEADERS         : TBD
-    BODY/PARAGRAPHS : TBD
-    LINKS/BUTTONS   : TBD
+    HEADERS         : Lobster
+    BODY/PARAGRAPHS : Arimo
+    LINKS/BUTTONS   : Arimo (Bold) 
  */  
 .energetic { 
     background-color: white;
@@ -73,21 +73,22 @@
 }
 
 .energetic h1 { 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-family: 'Lobster', cursive; 
 }
 
 .energetic h2 { 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-family: 'Lobster', sans-serif; 
 }
 
 .energetic p { 
-    /* font-family: 'Proza Libre', sans-serif;  */
+    font-family: 'Arimo', sans-serif; 
 }
 
 .energetic a { 
     background-color: #e91b86; 
     color: #a0cf31; 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-weight: bold;
+    font-family: 'Arimo', sans-serif; 
 }
 
 
