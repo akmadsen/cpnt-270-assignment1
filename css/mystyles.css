@@ -1,3 +1,13 @@
+/* #region GENERAL */
+
+* { 
+    box-sizing: border-box; 
+}
+
+/* #endregion */ 
+
+
+/* #region SOPHISTICATED */ 
 /*****************
  * Sophisticated *
  *****************
@@ -18,29 +28,33 @@
     LINKS/BUTTONS   : Open Sans (bold) 
 */  
 
-.sophisticated { 
+.sophisticated header { 
     background-color: #050505; 
+    height: 250px; 
+    width: 100%; 
 }
 
-.sophisticated .title { 
-    height: 100px; 
-    padding: 30px; 
+.sophisticated a { 
+    color: #f5f5f5; 
+    font-weight: bold; 
+    font-family: 'Open Sans', sans-serif; 
+    background-color: #050505; 
 }
 
 .sophisticated h1 { 
-    font-family: 'Playfair Display SC', serif; 
-    color: #e7aa0f;
-    font-weight: normal; 
+    margin-top: 0; 
     margin-bottom: 0; 
+    padding: 30px;
+
+    color: #e7aa0f;
+    
+    font-family: 'Playfair Display SC', serif; 
+    font-weight: normal; 
 }
 
-.sophisticated .nav {
+.sophisticated nav {
     width: 90%;  
     margin: 0 auto; 
-}
-
-.sophisticated .nav a { 
-    background-color: #050505; 
 }
 
 .sophisticated hr { 
@@ -49,32 +63,46 @@
 }
 
 .sophisticated h2 { 
+    margin-top: 0px; 
+
     font-family: 'Playfair Display SC', serif; 
     font-weight: normal; 
-    margin-top: 0px; 
 }
 
-.sophisticated .article { 
-    background-color: #f5f5f5; 
+.sophisticated article { 
     padding: 50px 0 50px; 
+
+    background-color: #f5f5f5; 
 }
 
 .sophisticated .wrapper { 
     margin-top: 0px;
-    padding: 50px auto;  
 }
 
-.sophisticated .article p  { 
+.sophisticated article p  { 
     font-family: 'Open Sans', sans-serif; 
 }
 
-.sophisticated a { 
-    color: #f5f5f5; 
-    font-weight: bold; 
-    font-family: 'Open Sans', sans-serif; 
+.sophisticated footer { 
+    background-color: #050505; 
+
+    height: 500px; 
 }
 
+.sophisticated footer .links { 
+    display: inline-block; 
+    width: 50%; 
+}
 
+.sophisticated footer .links a { 
+    display: block; 
+    max-width: 50%; 
+}
+
+/* #endregion */
+
+
+/* #region ENERGETIC */ 
 /*****************
  *   Energetic   *
  *****************
@@ -121,7 +149,10 @@
     font-family: 'Arimo', sans-serif; 
 }
 
+/* #endregion */ 
 
+
+/* #region RELAXED */ 
 /*****************
  *    Relaxed    *
  *****************
@@ -170,7 +201,10 @@
     font-family: 'Montserrat', sans-serif; 
 }
 
+/* #endregion */ 
 
+
+/* #region CORPORATE */ 
 /*****************
  *   Corporate   *
  *****************
@@ -219,13 +253,18 @@
     font-family: 'Cormorant Garamond', serif; 
 }
 
+/* #endregion */ 
 
-/* Fun */
-/* Strategy: Analogous*/
-/****** 
+
+/* #region FUN */ 
+/*****************
+ *      Fun      *
+ *****************
+ 
+ Strategy: Analogous 
+
 MAKE THIS A VAPORWAVE PLAYGROUND, ALEX!!!
-****/
-/* 
+
  Palette:
  ========
     Centre  : #f9e3da (yellow-ish) 
@@ -267,3 +306,5 @@ MAKE THIS A VAPORWAVE PLAYGROUND, ALEX!!!
     font-weight: bold;
     font-family: 'Roboto Condensed', sans-serif; 
 }
+
+/* #endregion */ 
