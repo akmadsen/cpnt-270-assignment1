@@ -8,6 +8,7 @@
 
 
 /* #region SOPHISTICATED */ 
+
 /*****************
  * Sophisticated *
  *****************
@@ -94,6 +95,14 @@
     width: 50%; 
 }
 
+footer .links a { 
+    color: #e7aa0f;
+}
+
+footer .social a { 
+    color: #e7aa0f;
+}
+
 .sophisticated footer .links a { 
     display: block; 
     max-width: 50%; 
@@ -109,6 +118,7 @@
 
 
 /* #region ENERGETIC */ 
+
 /*****************
  *   Energetic   *
  *****************
@@ -159,6 +169,7 @@
 
 
 /* #region RELAXED */ 
+
 /*****************
  *    Relaxed    *
  *****************
@@ -211,6 +222,7 @@
 
 
 /* #region CORPORATE */ 
+
 /*****************
  *   Corporate   *
  *****************
@@ -263,6 +275,7 @@
 
 
 /* #region FUN */ 
+
 /*****************
  *      Fun      *
  *****************
