@@ -99,6 +99,12 @@
     max-width: 50%; 
 }
 
+.sophisticated footer .social { 
+    display: inline-block; 
+    max-width: 50%;
+    float: right; 
+}
+
 /* #endregion */
 
 
