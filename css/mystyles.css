@@ -1,11 +1,22 @@
 /* #region GENERAL */
 
+/*****************
+ *    General    *
+ *****************
+
+ All common CSS stylings go here. 
+ */  
+
 * { 
     box-sizing: border-box; 
 }
 
 header { 
     width: 100%; 
+}
+
+.wrapper { 
+    margin-top: 0px; 
 }
 
 header .wrapper {
@@ -17,6 +28,44 @@ h1 {
     margin-bottom: 0; 
     padding: 30px; 
 }
+
+nav { 
+    width: 90%;
+    margin: 0 auto;  
+}
+
+h2 { 
+    margin-top: 0px; 
+}
+
+hr { 
+    margin: 0.1em 0; 
+}
+
+article { 
+    padding: 50px 0 50px; 
+    background-color: #ddd; 
+}
+
+footer { 
+    height: 300px;
+}
+
+footer .links { 
+    display: inline-block; 
+    width: 50%; 
+}
+
+footer .links a { 
+    display: block; 
+    width: 100%; 
+}
+
+footer .social { 
+    display: inline-block; 
+    max-width: 50%;
+}
+
 /* #endregion */ 
 
 
@@ -55,39 +104,22 @@ h1 {
 }
 
 .sophisticated h1 { 
-
-
     color: #e7aa0f;
     
     font-family: 'Playfair Display SC', serif; 
     font-weight: normal; 
 }
 
-.sophisticated nav {
-    width: 90%;  
-    margin: 0 auto; 
+.sophisticated h2 { 
+    font-family: 'Playfair Display SC', serif; 
 }
 
 .sophisticated hr { 
-    margin: 0.1em 0; 
     color: #f5f5f5; 
 }
 
-.sophisticated h2 { 
-    margin-top: 0px; 
-
-    font-family: 'Playfair Display SC', serif; 
-    font-weight: bold; 
-}
-
 .sophisticated article { 
-    padding: 50px 0 50px; 
-
     background-color: #f5f5f5; 
-}
-
-.sophisticated .wrapper { 
-    margin-top: 0px;
 }
 
 .sophisticated article p  { 
@@ -96,13 +128,6 @@ h1 {
 
 .sophisticated footer { 
     background-color: #050505; 
-
-    height: 300px; 
-}
-
-.sophisticated footer .links { 
-    display: inline-block; 
-    width: 50%; 
 }
 
 .sophisticated footer .links a { 
@@ -113,20 +138,10 @@ h1 {
     color: #e7aa0f;
 }
 
-.sophisticated footer .links a { 
-    display: block; 
-    max-width: 50%; 
-}
-
 .sophisticated footer .links h3 { 
     font-weight: normal; 
     color: #e7aa0f; 
     font-family: 'Open Sans', sans-serif; 
-}
-
-.sophisticated footer .social { 
-    display: inline-block; 
-    max-width: 50%;
 }
 
 /* #endregion */
@@ -165,39 +180,17 @@ h1 {
 }
 
 .energetic h1 { 
-
-
     color: #e91b86;
     
     font-family: 'Lobster', cursive; 
-    font-weight: normal; 
-}
-
-.energetic nav {
-    width: 90%;  
-    margin: 0 auto; 
-}
-
-.energetic hr { 
-    margin: 0.1em 0; 
-    color: #e91b86; 
 }
 
 .energetic h2 { 
-    margin-top: 0px; 
-
     font-family: 'Lobster', cursive; 
-    font-weight: bold; 
 }
 
-.energetic article { 
-    padding: 50px 0 50px; 
-
-    background-color: #f5f5f5; 
-}
-
-.energetic .wrapper { 
-    margin-top: 0px;
+.energetic hr { 
+    color: #e91b86; 
 }
 
 .energetic article p  { 
@@ -206,13 +199,6 @@ h1 {
 
 .energetic footer { 
     background-color: #a0cf31; 
-
-    height: 300px; 
-}
-
-.energetic footer .links { 
-    display: inline-block; 
-    width: 50%; 
 }
 
 .energetic footer .social a { 
@@ -220,19 +206,12 @@ h1 {
 }
 
 .energetic footer .links a { 
-    display: block; 
-    width: 100%; 
     color: #a0cf31;
 }
 
 .energetic footer .links h3 { 
     color: #e91b86; 
     font-family: 'Arimo', sans-serif; 
-}
-
-.energetic footer .social { 
-    display: inline-block; 
-    max-width: 50%;
 }
 
 
