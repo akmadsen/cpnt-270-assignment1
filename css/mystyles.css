@@ -240,16 +240,21 @@ footer .social {
     LINKS/BUTTONS   : Comfortaa (Bold) 
 */  
 
-.relaxed { 
-    background-color: #ebe084;
+.relaxed header { 
+    background-color: #6f984c; 
 }
 
-.relaxed .title { 
-    background-color: #364d39;  
-    color: #6f984c;
+.relaxed a { 
+    color: #ebe084; 
+    background-color: #364d39;
+
+    font-weight: bold; 
+    font-family: 'Montserrat', sans-serif; 
 }
 
 .relaxed h1 { 
+    color: #364d39;
+    
     font-family: 'Chango', cursive; 
 }
 
@@ -257,14 +262,33 @@ footer .social {
     font-family: 'Chango', cursive; 
 }
 
-.relaxed p { 
+.relaxed hr { 
+    color: #e91b86; 
+}
+
+.relaxed article { 
+    background-color: #ebe084;
+    color: #364d39;
+}
+
+.relaxed article p  { 
     font-family: 'Montserrat', sans-serif; 
 }
 
-.relaxed a { 
+.relaxed footer { 
     background-color: #6f984c; 
-    color: #ebe084; 
-    font-weight: bold; 
+}
+
+.relaxed footer .social a { 
+    color: #ebe084;
+}
+
+.relaxed footer .links a { 
+    color: #ebe084;
+}
+
+.relaxed footer .links h3 { 
+    color: #364d39; 
     font-family: 'Montserrat', sans-serif; 
 }
 
