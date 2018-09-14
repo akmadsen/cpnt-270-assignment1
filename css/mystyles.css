@@ -4,10 +4,10 @@
 
  Colour Strategy: Black, White and One Colour 
 
- Palette:
- ========
-    Black   : #111111 
-    White   : #dddddd
+ Base Palette:
+ =============
+    Black   : #050505 
+    White   : #f5f5f5
     Colour  : #e7aa0f
 
  Fonts: 
@@ -18,31 +18,50 @@
     LINKS/BUTTONS   : Open Sans (bold) 
 */  
 
-.sophisticated { 
-    background-color: #e7aa0f; 
+.sophisticated .header { 
+    background-color: #050505; 
 }
 
 .sophisticated .title { 
-    background-color: #111111; 
-    color: #dddddd;
+    background-color: #050505; 
+    height: 100px; 
+    padding: 30px; 
 }
 
 .sophisticated h1 { 
     font-family: 'Playfair Display SC', serif; 
+    color: #e7aa0f;
+    font-weight: normal; 
+    margin-bottom: 0; 
+}
 
+.sophisticated hr { 
+    margin: 0.1em 0; 
 }
 
 .sophisticated h2 { 
     font-family: 'Playfair Display SC', serif; 
+    font-weight: normal; 
+    margin-top: 0px; 
 }
 
-.sophisticated p { 
+.sophisticated .article { 
+    background-color: #f5f5f5; 
+    padding: 50px 0 50px; 
+}
+
+.sophisticated .wrapper { 
+    margin-top: 0px;
+    padding: 50px auto;  
+}
+
+.sophisticated .article p  { 
     font-family: 'Open Sans', sans-serif; 
 }
 
 .sophisticated a { 
-    background-color: #111111; 
-    color: #dddddd; 
+    background-color: #050505; 
+    color: #f5f5f5; 
     font-weight: bold; 
     font-family: 'Open Sans', sans-serif; 
 }
