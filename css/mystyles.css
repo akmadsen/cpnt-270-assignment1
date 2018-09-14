@@ -2,47 +2,76 @@
  * Sophisticated *
  *****************
 
- Colour Strategy: Triad
+ Colour Strategy: Black, White and One Colour 
 
- Palette:
- ========
-    Background  : #367abd 
-    Primary     : #ee4035
-    Secondary   : #f9ed3a
+ Base Palette:
+ =============
+    Black   : #050505 
+    White   : #f5f5f5
+    Colour  : #e7aa0f
 
  Fonts: 
  ======
-    HEADERS         : Fjalla One
-    BODY/PARAGRAPHS : Cantarell
-    LINKS/BUTTONS   : Fjalla One
+    (This font-pairing by www.fontpair.io) 
+    HEADERS         : Playfair Display SC (black) 
+    BODY/PARAGRAPHS : Open Sans 
+    LINKS/BUTTONS   : Open Sans (bold) 
 */  
 
 .sophisticated { 
-    background-color: #ee4035; 
+    background-color: #050505; 
 }
 
 .sophisticated .title { 
-    background-color: #367abd; 
-    color: #f9ed3a;
+    height: 100px; 
+    padding: 30px; 
 }
 
 .sophisticated h1 { 
-    font-family: 'Fjalla One', sans-serif; 
+    font-family: 'Playfair Display SC', serif; 
+    color: #e7aa0f;
+    font-weight: normal; 
+    margin-bottom: 0; 
+}
 
+.sophisticated .nav {
+    width: 90%;  
+    margin: 0 auto; 
+}
+
+.sophisticated .nav a { 
+    background-color: #050505; 
+}
+
+.sophisticated hr { 
+    margin: 0.1em 0; 
+    color: #f5f5f5; 
 }
 
 .sophisticated h2 { 
-    font-family: 'Fjalla One', sans-serif; 
+    font-family: 'Playfair Display SC', serif; 
+    font-weight: normal; 
+    margin-top: 0px; 
 }
 
-.sophisticated p { 
-    font-family: 'Proza Libre', sans-serif; 
+.sophisticated .article { 
+    background-color: #f5f5f5; 
+    padding: 50px 0 50px; 
+}
+
+.sophisticated .wrapper { 
+    margin-top: 0px;
+    padding: 50px auto;  
+}
+
+.sophisticated .article p  { 
+    font-family: 'Open Sans', sans-serif; 
 }
 
 .sophisticated a { 
-    background-color: #367abd; 
-    color: #f9ed3a; 
-    font-family: 'Fjalla One', sans-serif; 
+    color: #f5f5f5; 
+    font-weight: bold; 
+    font-family: 'Open Sans', sans-serif; 
 }
 
 
@@ -59,9 +88,10 @@
 
  Fonts: 
  ======
-    HEADERS         : TBD
-    BODY/PARAGRAPHS : TBD
-    LINKS/BUTTONS   : TBD
+    (This font-paring by www.fontpair.io)
+    HEADERS         : Lobster
+    BODY/PARAGRAPHS : Arimo
+    LINKS/BUTTONS   : Arimo (Bold) 
  */  
 .energetic { 
     background-color: white;
@@ -73,21 +103,22 @@
 }
 
 .energetic h1 { 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-family: 'Lobster', cursive; 
 }
 
 .energetic h2 { 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-family: 'Lobster', sans-serif; 
 }
 
 .energetic p { 
-    /* font-family: 'Proza Libre', sans-serif;  */
+    font-family: 'Arimo', sans-serif; 
 }
 
 .energetic a { 
     background-color: #e91b86; 
     color: #a0cf31; 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-weight: bold;
+    font-family: 'Arimo', sans-serif; 
 }
 
 
@@ -105,9 +136,10 @@
 
  Fonts: 
  ======
-    HEADERS         : TBD
-    BODY/PARAGRAPHS : TBD
-    LINKS/BUTTONS   : TBD
+    (This font-pair an attempt by Alex Madsen) 
+    HEADERS         : Chango
+    BODY/PARAGRAPHS : Comfortaa
+    LINKS/BUTTONS   : Comfortaa (Bold) 
 */  
 
 .relaxed { 
@@ -120,21 +152,22 @@
 }
 
 .relaxed h1 { 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-family: 'Chango', cursive; 
 }
 
 .relaxed h2 { 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-family: 'Chango', cursive; 
 }
 
 .relaxed p { 
-    /* font-family: 'Proza Libre', sans-serif;  */
+    font-family: 'Montserrat', sans-serif; 
 }
 
 .relaxed a { 
     background-color: #6f984c; 
     color: #ebe084; 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-weight: bold; 
+    font-family: 'Montserrat', sans-serif; 
 }
 
 
@@ -152,6 +185,7 @@
 
  Fonts: 
  ======
+    (This font-pairing by www.fontpair.io) 
     HEADERS         : Cormorant Garamond
     BODY/PARAGRAPHS : Proza Libre
     LINKS/BUTTONS   : Cormorant Garamond
@@ -194,15 +228,16 @@ MAKE THIS A VAPORWAVE PLAYGROUND, ALEX!!!
 /* 
  Palette:
  ========
-    Centre  : #ffe822
-    Left    : #414b8b 
-    Right   : #e91b86
+    Centre  : #f9e3da (yellow-ish) 
+    Left    : #30499b (blue-ish) 
+    Right   : #ec4a94 (pink-ish) 
 
  Fonts: 
  ======
-    HEADERS         : TBD
-    BODY/PARAGRAPHS : TBD
-    LINKS/BUTTONS   : TBD
+    (This font-pairing an attempt by Alex Madsen) 
+    HEADERS         : Permanent Marker
+    BODY/PARAGRAPHS : Roboto Condensed
+    LINKS/BUTTONS   : Roboto Condensed (bold) 
  */  
 
 .fun { 
@@ -215,19 +250,20 @@ MAKE THIS A VAPORWAVE PLAYGROUND, ALEX!!!
 }
 
 .fun h1 { 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-family: 'Permanent Marker', cursive; 
 }
 
 .fun h2 { 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-family: 'Permanent Marker', cursive; 
 }
 
 .fun p { 
-    /* font-family: 'Proza Libre', sans-serif;  */
+    font-family: 'Roboto Condensed', sans-serif; 
 }
 
 .fun a { 
     background-color: #414b8b; 
     color: #ffe822; 
-    /* font-family: 'Fjalla One', sans-serif;  */
+    font-weight: bold;
+    font-family: 'Roboto Condensed', sans-serif; 
 }
