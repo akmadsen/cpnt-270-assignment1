@@ -31,8 +31,11 @@
 
 .sophisticated header { 
     background-color: #050505; 
-    height: 250px; 
     width: 100%; 
+}
+
+.sophisticated header .wrapper { 
+    height: 250px; 
 }
 
 .sophisticated a { 
@@ -87,7 +90,7 @@
 .sophisticated footer { 
     background-color: #050505; 
 
-    height: 500px; 
+    height: 300px; 
 }
 
 .sophisticated footer .links { 
@@ -106,6 +109,12 @@ footer .social a {
 .sophisticated footer .links a { 
     display: block; 
     max-width: 50%; 
+}
+
+.sophisticated footer .links h3 { 
+    font-weight: normal; 
+    color: #e7aa0f; 
+    font-family: 'Open Sans', sans-serif; 
 }
 
 .sophisticated footer .social { 
