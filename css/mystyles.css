@@ -191,6 +191,7 @@ footer .social {
 
 .energetic hr { 
     color: #e91b86; 
+    border-top: 3px dashed; 
 }
 
 .energetic article p  { 
@@ -260,6 +261,12 @@ footer .social {
 
 .relaxed h2 { 
     font-family: 'Chango', cursive; 
+}
+
+.relaxed hr { 
+    color: #364d39; 
+    border-color: transparent; 
+    border-top: 5px dotted; 
 }
 
 .relaxed article { 
@@ -337,6 +344,12 @@ footer .social {
 
 .corporate h2 { 
     font-family: 'Alfa Slab One', cursive; 
+}
+
+.corporate hr { 
+    color: #ddd; 
+    border-color: transparent; 
+    border-top: 5px double; 
 }
 
 .corporate article { 
@@ -417,6 +430,12 @@ MAKE THIS A VAPORWAVE PLAYGROUND, ALEX!!!
 
 .fun h2 { 
     font-family: 'Permanent Marker', cursive; 
+}
+
+.fun hr { 
+    color: #ffe822; 
+    border-color: transparent; 
+    border-top: 2px dashed; 
 }
 
 .fun article { 
