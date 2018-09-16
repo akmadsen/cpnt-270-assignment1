@@ -262,10 +262,6 @@ footer .social {
     font-family: 'Chango', cursive; 
 }
 
-.relaxed hr { 
-    color: #e91b86; 
-}
-
 .relaxed article { 
     background-color: #ebe084;
     color: #364d39;
@@ -305,44 +301,69 @@ footer .social {
 
  Palette:
  ======== 
-    B       : #1f1f1f
-    W       : #e0e0e0 (or 0xffffff - 0x1f1f1f) 
+    B       : #222222
+    W       : #dddddd (or 0xffffff - 0xdddddd) 
     Colour  : #0018f5 
 
  Fonts: 
  ======
     (This font-pairing by www.fontpair.io) 
-    HEADERS         : Cormorant Garamond
-    BODY/PARAGRAPHS : Proza Libre
-    LINKS/BUTTONS   : Cormorant Garamond
+    HEADERS         : Alfa Slab One
+    BODY/PARAGRAPHS : Lato
+    LINKS/BUTTONS   : Lato (Bold) 
 */ 
 
-.corporate { 
-    background-color: #e0e0e0; 
+.corporate h1, .corporate h2, .corporate h3 { 
+    letter-spacing: 2px; 
 }
 
-.corporate h1 { 
-    font-family: 'Cormorant Garamond', serif; 
-}
-
-.corporate h2 { 
-    font-family: 'Cormorant Garamond', serif; 
-}
-
-.corporate .title {
-    color: #e0e0e0; 
-    background-color: #0018f5; 
-}
-
-.corporate p { 
-    color: #1f1f1f; 
-    font-family: 'Proza Libre', sans-serif; 
+.corporate header { 
+    background-color: #1a258a; 
 }
 
 .corporate a { 
-    background-color: #0018f5; 
-    color: #e0e0e0; 
-    font-family: 'Cormorant Garamond', serif; 
+    color: #ddd; 
+    background-color: #222;
+
+    font-weight: bold; 
+    font-family: 'Lato', sans-serif; 
+}
+
+.corporate h1 { 
+    color: #ddd;
+    
+    font-family: 'Alfa Slab One', cursive; 
+}
+
+.corporate h2 { 
+    font-family: 'Alfa Slab One', cursive; 
+}
+
+.corporate article { 
+    background-color: #ddd;
+    color: #222;
+}
+
+.corporate article p  { 
+    font-family: 'Lato', sans-serif; 
+}
+
+.corporate footer { 
+    background-color: #1a258a; 
+}
+
+.corporate footer .social a { 
+    color: #fff;
+}
+
+.corporate footer .links a { 
+    color: #fff;
+}
+
+.corporate footer .links h3 { 
+    color: #ddd; 
+    font-family: 'Alfa Slab One', cursive; 
+    font-size: 1.5em; 
 }
 
 /* #endregion */ 
